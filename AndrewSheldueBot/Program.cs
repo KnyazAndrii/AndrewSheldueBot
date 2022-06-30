@@ -20,7 +20,7 @@ namespace AndrewSheldueBot
         public static string bot_Wednesday = "Нижня середа:\n08:30 - Хмарні обч. та техн. блокчейну(Лб)\n10:00 - Фін. мод. в бізнесі(Л)\n11:30 - Хмарні обч. та техн. блокчейну(Л)";
         public static string bot_Thursday = "Нижній четвер:\n08:30 - Технол. проект та адмін. БД і СД(Лб)\n10:00 - Технол. проект та адмін. БД і СД(П)\n11:30 - Право(П)";
         public static string bot_Friday = "Нижня п'ятниця:\n10:00 - Фін. мод. в бізнесі(П)\n11:30 - Бух. облік(П)\n13:00 - Іноземна мова(П)";
-        private static string token { get; sокet; } = "5164753090:AAEhu5uwONDFtANIqwGzEbWVEMuh9_5cDyc";
+        private static string token { get; set; } = "5164753090:AAEhu5uwONDFtANIqwGzEbWVEMuh9_5cDyc";
         private static TelegramBotClient client;
         public static int typeOfWeek = 1;
         static void Main(string[] args)
